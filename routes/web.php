@@ -31,6 +31,8 @@ Route::post("contact-us", function (Request $request) {
         return redirect()->to("/#contactForm")->withErrors($validator->errors())->withInput();
     }
 
-    Mail::to("info@3e-eng.eu")->send(new ContactUs($request->input()));
+    Mail::to(
+        env("MAIL_TO_ADDRESS", "info@3e-eng.eu")
+    )->send(new ContactUs($request->input()));
     return redirect()->to("/#contactForm")->with("success", __("Form was successfully sent."));
 })->name("sendContactForm");
