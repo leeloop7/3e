@@ -14,6 +14,12 @@
                 <li class="pt-4 pb-4">
                     <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#portfolio">{{__("Portfolio")}}</a>
                 </li>
+                <li class="pt-4 pb-4">
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#references">{{__("Reference")}}</a>
+                </li>
+                <li class="pt-4 pb-4">
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#contactUs">{{__("Kontaktiraj nas")}}</a>
+                </li>
             </ul>
             <div class="lg:hidden">
                 <button class="navbar-burger flex items-center py-2 px-3 text-blue-500 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">

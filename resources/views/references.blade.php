@@ -35,7 +35,7 @@ $references = [
     ]
 ];
 ?>
-<section class="py-12 md:py-20">
+<section class="py-12 md:py-20" id="references">
     <div class="container">
         <div class="max-w-lg mx-auto mb-12 text-center">
             <span

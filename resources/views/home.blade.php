@@ -20,6 +20,7 @@
     @include("presentation")
     @include("portfolio")
     @include("references")
+    @include("contact")
 </div>
 
 <!--Import Vendor Js-->
