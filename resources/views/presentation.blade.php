@@ -6,9 +6,9 @@
                     <div class="mb-4">
                         <span
                             class="text-xs py-1 px-3 text-blue-500 font-semibold bg-blue-50 rounded-xl wow animate__animated animate__fadeInDown"
-                            data-wow-delay=".9s">{{__("Kdo smo?")}}</span>
+                            data-wow-delay=".9s">{{__("Who are we?")}}</span>
                         <h2 class="text-4xl mt-5 font-bold font-heading wow animate__animated animate__fadeInUp"
-                            data-wow-delay=".3s">{{__("Predstavitev")}}</h2>
+                            data-wow-delay=".3s">{{__("Presentation")}}</h2>
                     </div>
                     <div class="flex items-start py-4 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                         <div>
@@ -18,7 +18,6 @@
                         </div>
                     </div>
                     <div class="flex items-start py-4 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-
                         <div>
                             <p class="text-blueGray-400 leading-loose">
                                 {{__("3e.presentation.paragraph_2")}}

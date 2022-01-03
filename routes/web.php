@@ -15,11 +15,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get("/", function () {
+   return Redirect::to("/en");
+});
+
+Route::get('/{language}', function (string $language) {
+    app()->setLocale($language);
     return view('home');
 });
 
-Route::post("contact-us", function (Request $request) {
+Route::post("/{language}/contact-us", function (Request $request, string $language) {
+    app()->setLocale($language);
     $validator = Validator::make($request->input(), [
         "subject" => "required",
         "name" => "required",

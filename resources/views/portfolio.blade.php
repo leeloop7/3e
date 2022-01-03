@@ -1,30 +1,31 @@
-<section class="mb-8">
+<section class="mb-8" id="portfolio">
     <div class="container">
         <div class="flex w-full lg:h-full">
             <div class="flex-1 lg:pr-32 py-20 lg:py-16 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                 <div class="max-w-2xl px-4 mx-auto lg:ml-0">
                     <h3 class="mb-8 text-4xl font-bold font-heading wow animate__animated animate__fadeInUp">
-                        Portfolio</h3>
+                        {{__("Portfolio")}}
+                    </h3>
                     <div
                         x-data="{
                         faqs: [
                             {
-                                question: '{{__("Tehnične storitve")}}',
+                                question: '{{__("Technical Services")}}',
                                 answer: '{{__("3e.portfolio.technical")}}',
                                 isOpen: true,
                             },
                             {
-                                question: '{{__("Proizvodne tehnologije")}}',
+                                question: '{{__("Production Technologies")}}',
                                 answer: '{{__("3e.portfolio.industrial_technologies")}}',
                                 isOpen: false,
                             },
                             {
-                                question: '{{__("Proizvodi")}}',
+                                question: '{{__("Products")}}',
                                 answer: '{{__("3e.portfolio.products")}}',
                                 isOpen: false,
                             },
                             {
-                                question: '{{__("Montaža in transport")}}',
+                                question: '{{__("Assembly And Transport")}}',
                                 answer: '{{__("3e.portfolio.assembly_and_transport")}}',
                                 isOpen: false,
                             },

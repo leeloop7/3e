@@ -4,9 +4,9 @@
             <div class="mb-12 text-center">
                 <h2 class="text-4xl font-bold font-heading wow animate__animated animate__fadeInUp animated"
                     data-wow-delay=".1s">
-                    {{__("Kontaktirajte nas")}}</h2>
+                    {{__("Contact Us")}}</h2>
                 <p class="text-blueGray-400 wow animate__animated animate__fadeInUp animated"
-                   data-wow-delay=".5s"> {{__("Veseli bomo vašega povpraševanja.")}}</p>
+                   data-wow-delay=".5s"> {{__("We will be glad to hear from you.")}}</p>
             </div>
             <div class="flex flex-wrap -mx-3 text-center">
                 <div class="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeInUp animated"
@@ -47,14 +47,14 @@
                               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                     </svg>
                     <div class="leading-relaxed">
-                        <span class="text-sm text-blueGray-400">{{__("Naslov")}}</span>
+                        <span class="text-sm text-blueGray-400">{{__("Address")}}</span>
                         <p>Novo mesto</p>
                         <p>Slovenija</p>
                     </div>
                 </div>
             </div>
             <div id="contactForm">
-                <form method="post" action="{{route('sendContactForm')}}">
+                <form method="post" action="{{route('sendContactForm', app()->getLocale())}}">
 
                     @if ($errors->any())
                         <div class="bg-blue-50 text-blue-900 rounded-xl p-4 mb-4 text-xs">
@@ -80,7 +80,7 @@
                             <div class="mb-4">
                                 <input
                                     class="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
-                                    type="text" placeholder="{{__('Zadeva')}}"
+                                    type="text" placeholder="{{__('Subject')}}"
                                     name="subject"
                                     value="{{old('subject')}}"
                                 />
@@ -88,7 +88,7 @@
                             <div class="mb-4">
                                 <input
                                     class="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
-                                    type="text" placeholder="{{__('Ime')}}"
+                                    type="text" placeholder="{{__('Name')}}"
                                     name="name"
                                     value="{{old('name')}}"
                                 />
@@ -105,14 +105,14 @@
                         <div class="w-full lg:w-1/2 px-3">
                             <textarea
                                 class="w-full h-full p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none"
-                                placeholder="{{__("Sporočilo")}}..." name="message">{{old("message")}}</textarea>
+                                placeholder="{{__("Message")}}..." name="message">{{old("message")}}</textarea>
                         </div>
                     </div>
                     <div class="flex justify-between items-center">
                         <button
                             class="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded"
                             type="submit">
-                            {{__("Pošlji")}}
+                            {{__("Submit")}}
                         </button>
                     </div>
                 </form>

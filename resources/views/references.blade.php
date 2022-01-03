@@ -1,8 +1,8 @@
 <?php
 $references = [
     "okrasne" => [
-        "title" => "Okrasne skulpture",
-        "description" => "Nerjavno jeklo - AISI 304, Scotch-Brite finish in pasivirana površina",
+        "title" => "Decorative Sculptures",
+        "description" => "Stainless steel - AISI 304, Scotch-Brite finishin pasivited surface",
         "main_image" => "/imgs/okrasne/okrasne_1.jpg",
         "images" => [
             "/imgs/okrasne/okrasne_2.jpg",
@@ -12,8 +12,8 @@ $references = [
         ]
     ],
     "nerjavno_jeklo" => [
-        "title" => "Konstrukcija iz nerjavnega jekla",
-        "description" => "Europalete, specialna oprema za farmacevtsko industrijo.",
+        "title" => "Stainless steel construction",
+        "description" => "Europallets, special equipment for pharmaceutical industry.",
         "main_image" => "/imgs/okrasne/okrasne_1.jpg",
         "images" => [
             "/imgs/okrasne/okrasne_2.jpg",
@@ -23,8 +23,8 @@ $references = [
         ]
     ],
     "konstrukcijsko_jeklo" => [
-        "title" => "Projekti iz konstrukcijskega jekla",
-        "description" => "Ograje, stopnišča, nadstreški in ograje.",
+        "title" => "Construction steel projects",
+        "description" => "Fences, stairs and roofs",
         "main_image" => "/imgs/okrasne/okrasne_1.jpg",
         "images" => [
             "/imgs/okrasne/okrasne_2.jpg",
@@ -40,10 +40,10 @@ $references = [
         <div class="max-w-lg mx-auto mb-12 text-center">
             <span
                 class="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl wow animate__animated animate__fadeInUp animated"
-                data-wow-delay=".1s">{{__("Naši projekti")}}</span>
+                data-wow-delay=".1s">{{__("Our projects")}}</span>
             <h2 class="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading wow animate__animated animate__fadeInUp animated"
                 data-wow-delay=".3s">
-                {{__("Poglej naše zadnje projekte")}}
+                {{__("See our latest projects")}}
             </h2>
         </div>
         @foreach($references as $index => $reference)
@@ -74,7 +74,7 @@ $references = [
                         <a data-gallery="{{$index}}"
                            data-glightbox="description: {{__($reference['title'])}}"
                            class="glightbox tracking-wide hover-up-2 inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded"
-                           href="{{$reference['main_image']}}">{{__("Poglej več")}}</a>
+                           href="{{$reference['main_image']}}">{{__("See more")}}</a>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@
     <title>3E Engineering</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="description" content="We Engineer Your Desire"/>
+    <meta name="description" content="{{__('We Engineer Your Desire')}}"/>
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="/css/animate.min.css?v=2.0"/>
     <link rel="stylesheet" href="/css/slick.css?v=2.0"/>

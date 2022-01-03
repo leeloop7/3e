@@ -6,19 +6,19 @@
             </a>
             <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
                 <li class="group relative pt-4 pb-4">
-                    <a href="/" class="text-sm font-semibold text-white hover:text-blueGray-500">{{__("Domov")}}</a>
+                    <a href="/" class="text-sm font-semibold text-white hover:text-blueGray-500">{{__("Home")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#presentation">{{__("Predstavitev")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#presentation">{{__("Presentation")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
                     <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#portfolio">{{__("Portfolio")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#references">{{__("Reference")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#references">{{__("References")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#contactUs">{{__("Kontaktiraj nas")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#contactUs">{{__("Contact Us")}}</a>
                 </li>
             </ul>
             <div class="lg:hidden">
@@ -49,13 +49,19 @@
         <div>
             <ul class="mobile-menu">
                 <li class="mb-1 rounded-xl">
-                    <a href="/" class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">Domov</a>
+                    <a href="/" class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">{{__("Home")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl">
-                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#presentation">Predstavitev</a>
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#presentation">{{__("Presentation")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl">
-                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#portfolio">Portfolio</a>
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#portfolio">{{__("Portfolio")}}</a>
+                </li>
+                <li class="mb-1 rounded-xl">
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#referneces">{{__("References")}}</a>
+                </li>
+                <li class="mb-1 rounded-xl">
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#contactUs">{{__("Contact Us")}}</a>
                 </li>
             </ul>
         </div>
