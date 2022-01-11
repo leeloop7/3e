@@ -9,6 +9,12 @@ $references = [
             "/imgs/okrasne/okrasne_3.jpg",
             "/imgs/okrasne/okrasne_4.jpg",
             "/imgs/okrasne/okrasne_5.jpg",
+        ],
+        "thumbs" => [
+            "/imgs/thumbs/thumb_01.jpg",
+            "/imgs/thumbs/thumb_04.jpg",
+            "/imgs/thumbs/thumb_03.jpg",
+            "/imgs/thumbs/thumb_02.jpg",
         ]
     ],
     "nerjavno_jeklo" => [
@@ -20,17 +26,29 @@ $references = [
             "/imgs/okrasne/okrasne_3.jpg",
             "/imgs/okrasne/okrasne_4.jpg",
             "/imgs/okrasne/okrasne_5.jpg",
+        ],
+        "thumbs" => [
+            "/imgs/thumbs/thumb_01.jpg",
+            "/imgs/thumbs/thumb_02.jpg",
+            "/imgs/thumbs/thumb_03.jpg",
+            "/imgs/thumbs/thumb_04.jpg",
         ]
     ],
     "konstrukcijsko_jeklo" => [
         "title" => "Construction steel projects",
         "description" => "Fences, stairs and roofs",
-        "main_image" => "/imgs/okrasne/okrasne_1.jpg",
+        "main_image" => "/imgs/konstrukcijsko/konstrukcijsko_6.jpg",
         "images" => [
-            "/imgs/okrasne/okrasne_2.jpg",
-            "/imgs/okrasne/okrasne_3.jpg",
-            "/imgs/okrasne/okrasne_4.jpg",
-            "/imgs/okrasne/okrasne_5.jpg",
+            "/imgs/konstrukcijsko/konstrukcijsko_2.jpg",
+            "/imgs/konstrukcijsko/konstrukcijsko_7.jpg",
+            "/imgs/konstrukcijsko/konstrukcijsko_5.jpg",
+            "/imgs/konstrukcijsko/konstrukcijsko_4.jpg",
+        ],
+        "thumbs" => [
+            "/imgs/thumbs/thumb_11.jpg",
+            "/imgs/thumbs/thumb_06.jpg",
+            "/imgs/thumbs/thumb_08.jpg",
+            "/imgs/thumbs/thumb_09.jpg",
         ]
     ]
 ];
@@ -49,13 +67,13 @@ $references = [
         @foreach($references as $index => $reference)
             <div class="flex flex-wrap -mx-3 mb-6 lg:mb-0">
                 <div
-                    class="w-full lg:w-1/2 flex flex-wrap px-3 mb-6 lg:md-0 {{$loop->index % 2 === 0 ? 'order-first' : 'order-last' }}">
-                    @foreach($reference["images"] as $image)
+                    class="w-full lg:w-1/2 flex flex-wrap px-3 mb-24 lg:md-0 {{$loop->index % 2 === 0 ? 'order-first' : 'order-last' }}">
+                    @foreach($reference["images"] as $imageIndex => $image)
                         <div class="hover-up-5 w-1/2 h-64 pr-3 pb-3 wow animate__animated animate__fadeIn animated"
                              data-wow-delay=".1s">
                             <a href="{{$image}}" class="glightbox" data-gallery="{{$index}}"
                                data-glightbox="description: {{__($reference['title'])}}">
-                                <img class="h-full object-cover rounded" src="{{$image}}" alt=""/>
+                                <img class="h-full object-cover rounded" src="{{$reference["thumbs"][$imageIndex]}}" alt=""/>
                             </a>
                         </div>
                     @endforeach

@@ -604,6 +604,9 @@ video {
 .-mb-16{
 	margin-bottom: -4rem !important;
 }
+.mb-24{
+	margin-bottom: 6rem !important;
+}
 .block{
 	display: block !important;
 }
@@ -700,11 +703,11 @@ video {
 .overflow-y-auto{
 	overflow-y: auto !important;
 }
-.rounded{
-	border-radius: 0.25rem !important;
-}
 .rounded-xl{
 	border-radius: 0.75rem !important;
+}
+.rounded{
+	border-radius: 0.25rem !important;
 }
 .border{
 	border-width: 1px !important;
@@ -723,6 +726,10 @@ video {
 	--tw-border-opacity: 1 !important;
 	border-color: rgba(229, 231, 235, var(--tw-border-opacity)) !important;
 }
+.bg-blue-50{
+	--tw-bg-opacity: 1 !important;
+	background-color: rgba(239, 246, 255, var(--tw-bg-opacity)) !important;
+}
 .bg-blueGray-50{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(248, 250, 252, var(--tw-bg-opacity)) !important;
@@ -739,17 +746,9 @@ video {
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
 }
-.bg-blue-50{
-	--tw-bg-opacity: 1 !important;
-	background-color: rgba(239, 246, 255, var(--tw-bg-opacity)) !important;
-}
 .bg-blue-100{
 	--tw-bg-opacity: 1 !important;
 	background-color: rgba(219, 234, 254, var(--tw-bg-opacity)) !important;
-}
-.bg-blue-200{
-	--tw-bg-opacity: 1 !important;
-	background-color: rgba(191, 219, 254, var(--tw-bg-opacity)) !important;
 }
 .bg-cover{
 	background-size: cover !important;
@@ -892,6 +891,10 @@ video {
 	--tw-text-opacity: 1 !important;
 	color: rgba(37, 99, 235, var(--tw-text-opacity)) !important;
 }
+.text-blue-900{
+	--tw-text-opacity: 1 !important;
+	color: rgba(30, 58, 138, var(--tw-text-opacity)) !important;
+}
 .text-white{
 	--tw-text-opacity: 1 !important;
 	color: rgba(255, 255, 255, var(--tw-text-opacity)) !important;
@@ -911,14 +914,6 @@ video {
 .text-gray-700{
 	--tw-text-opacity: 1 !important;
 	color: rgba(55, 65, 81, var(--tw-text-opacity)) !important;
-}
-.text-blue-700{
-	--tw-text-opacity: 1 !important;
-	color: rgba(29, 78, 216, var(--tw-text-opacity)) !important;
-}
-.text-blue-900{
-	--tw-text-opacity: 1 !important;
-	color: rgba(30, 58, 138, var(--tw-text-opacity)) !important;
 }
 .underline{
 	text-decoration: underline !important;
