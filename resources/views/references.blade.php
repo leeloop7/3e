@@ -20,18 +20,18 @@ $references = [
     "nerjavno_jeklo" => [
         "title" => "Stainless steel construction",
         "description" => "Europallets, special equipment for pharmaceutical industry.",
-        "main_image" => "/imgs/okrasne/okrasne_1.jpg",
+        "main_image" => "/imgs/special/special_1.jpg",
         "images" => [
-            "/imgs/okrasne/okrasne_2.jpg",
-            "/imgs/okrasne/okrasne_3.jpg",
-            "/imgs/okrasne/okrasne_4.jpg",
-            "/imgs/okrasne/okrasne_5.jpg",
+            "/imgs/special/special_1.jpg",
+            "/imgs/special/special_2.jpg",
+            "/imgs/special/special_3.jpg",
+            "/imgs/special/special_4.jpg",
         ],
         "thumbs" => [
-            "/imgs/thumbs/thumb_01.jpg",
-            "/imgs/thumbs/thumb_02.jpg",
-            "/imgs/thumbs/thumb_03.jpg",
-            "/imgs/thumbs/thumb_04.jpg",
+            "/imgs/thumbs/thumb_13.jpg",
+            "/imgs/thumbs/thumb_14.jpg",
+            "/imgs/thumbs/thumb_15.jpg",
+            "/imgs/thumbs/thumb_16.jpg",
         ]
     ],
     "konstrukcijsko_jeklo" => [
