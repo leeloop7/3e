@@ -20,6 +20,17 @@
                 <li class="pt-4 pb-4">
                     <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#contactUs">{{__("Contact Us")}}</a>
                 </li>
+                <li class="pt-4 pb-4 flex space-x-2">
+                    <a href="/en" class="text-sm font-semibold text-white hover:text-blueGray-500">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/gb-eng.svg" alt="" class="w-4 h-4">
+                    </a>
+                    <a href="/de" class="text-sm font-semibold text-white hover:text-blueGray-500">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/de.svg" alt="" class="w-4 h-4">
+                    </a>
+                    <a href="/sl" class="text-sm font-semibold text-white hover:text-blueGray-500">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/si.svg" alt="" class="w-4 h-4">
+                    </a>
+                </li>
             </ul>
             <div class="lg:hidden">
                 <button class="navbar-burger flex items-center py-2 px-3 text-blue-500 hover:text-blue-700 rounded border border-blue-200 hover:border-blue-300">
@@ -62,6 +73,17 @@
                 </li>
                 <li class="mb-1 rounded-xl">
                     <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#contactUs">{{__("Contact Us")}}</a>
+                </li>
+                <li class="mb-1 rounded-xl flex">
+                    <a class="block py-4 px-2 pl-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/gb-eng.svg" alt="" class="h-6 w-6">
+                    </a>
+                    <a class="block py-4 px-2 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/de.svg" alt="" class="h-6 w-6">
+                    </a>
+                    <a class="block py-4 px-2 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="">
+                        <img src="https://flagicons.lipis.dev/flags/4x3/si.svg" alt="" class="h-6 w-6">
+                    </a>
                 </li>
             </ul>
         </div>

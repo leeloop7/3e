@@ -11,7 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.postCss('resources/css/app.css', 'public/css', [
-
-]).version();
+mix.postCss('resources/css/app.css', 'public/css', [])
+    .postCss('resources/css/admin.css', 'public/css', [])
+    .version();
 

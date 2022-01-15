@@ -15,6 +15,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::group(["prefix" => "admin", "middleware" => "auth.basic"], function() {
+    Route::get("/", function(){
+      return view("admin.dashboard");
+    })->name("admin.dashboard");
+    Route::get("presentation", function(){
+       return view("admin.presentation");
+    })->name("admin.presentation");
+    Route::get("portfolio", function(){
+        return view("admin.portfolio");
+    })->name("admin.portfolio");
+    Route::get("references", function(){
+        return view("admin.references");
+    })->name("admin.references");
+    Route::get("contact-us", function(){
+        return view("admin.contact-us");
+    })->name("admin.contact-us");
+});
+
 Route::get("/", function () {
    return Redirect::to("/en");
 });
