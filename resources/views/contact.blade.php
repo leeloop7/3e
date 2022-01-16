@@ -4,9 +4,9 @@
             <div class="mb-12 text-center">
                 <h2 class="text-4xl font-bold font-heading wow animate__animated animate__fadeInUp animated"
                     data-wow-delay=".1s">
-                    {{__("Contact Us")}}</h2>
+                    {{word("Contact Us")}}</h2>
                 <p class="text-blueGray-400 wow animate__animated animate__fadeInUp animated"
-                   data-wow-delay=".5s"> {{__("We will be glad to hear from you.")}}</p>
+                   data-wow-delay=".5s"> {{word("We will be glad to hear from you.")}}</p>
             </div>
             <div class="flex flex-wrap -mx-3 text-center">
                 <div class="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeInUp animated"
@@ -17,12 +17,7 @@
                               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
                     <div class="leading-relaxed">
-                        <span class="text-sm text-blueGray-400">Daniel</span>
-                        <p>+386 40 309 966</p>
-                        <span class="text-sm text-blueGray-400">Ivo</span>
-                        <p>+386 31 739 584</p>
-                        <span class="text-sm text-blueGray-400">Matija</span>
-                        <p>+386 41 703 052</p>
+                        {!! word("3e.contact-us.info") !!}
                     </div>
                 </div>
                 <div class="w-1/2 lg:w-1/3 px-3 mb-12 wow animate__animated animate__fadeInUp animated"
@@ -47,7 +42,7 @@
                               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                     </svg>
                     <div class="leading-relaxed">
-                        <span class="text-sm text-blueGray-400">{{__("Address")}}</span>
+                        <span class="text-sm text-blueGray-400">{{word("Address")}}</span>
                         <p>Novo mesto</p>
                         <p>Slovenija</p>
                     </div>
@@ -80,7 +75,7 @@
                             <div class="mb-4">
                                 <input
                                     class="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
-                                    type="text" placeholder="{{__('Subject')}}"
+                                    type="text" placeholder="{{word('Subject')}}"
                                     name="subject"
                                     value="{{old('subject')}}"
                                 />
@@ -88,7 +83,7 @@
                             <div class="mb-4">
                                 <input
                                     class="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
-                                    type="text" placeholder="{{__('Name')}}"
+                                    type="text" placeholder="{{word('Name')}}"
                                     name="name"
                                     value="{{old('name')}}"
                                 />
@@ -105,14 +100,14 @@
                         <div class="w-full lg:w-1/2 px-3">
                             <textarea
                                 class="w-full h-full p-4 text-xs font-semibold leading-none resize-none bg-blueGray-50 rounded outline-none"
-                                placeholder="{{__("Message")}}..." name="message">{{old("message")}}</textarea>
+                                placeholder="{{word("Message")}}..." name="message">{{old("message")}}</textarea>
                         </div>
                     </div>
                     <div class="flex justify-between items-center">
                         <button
                             class="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded"
                             type="submit">
-                            {{__("Submit")}}
+                            {{word("Submit")}}
                         </button>
                     </div>
                 </form>

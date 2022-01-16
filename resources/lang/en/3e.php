@@ -22,5 +22,15 @@ return [
             <strong>City:</strong> SLOVENIJA, 8000 NOVO MESTO<br>
             <strong>MAIL:</strong>
             <a href="mailto:INFO@3E-ENG.EU" class="underline hover:text-blue-400">INFO@3E-ENG.EU</a>'
+    ],
+    'contact-us' => [
+        'info' => '
+            <span class="text-sm text-blueGray-400">Daniel</span>
+            <p>+386 40 309 966</p>
+            <span class="text-sm text-blueGray-400">Ivo</span>
+            <p>+386 31 739 584</p>
+            <span class="text-sm text-blueGray-400">Matija</span>
+            <p>+386 41 703 052</p>
+        '
     ]
 ];

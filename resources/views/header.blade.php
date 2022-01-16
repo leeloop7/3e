@@ -6,19 +6,19 @@
             </a>
             <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-12">
                 <li class="group relative pt-4 pb-4">
-                    <a href="/" class="text-sm font-semibold text-white hover:text-blueGray-500">{{__("Home")}}</a>
+                    <a href="/" class="text-sm font-semibold text-white hover:text-blueGray-500">{{word("Home")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#presentation">{{__("Presentation")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#presentation">{{word("Presentation")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#portfolio">{{__("Portfolio")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#portfolio">{{word("Portfolio")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#references">{{__("References")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#references">{{word("References")}}</a>
                 </li>
                 <li class="pt-4 pb-4">
-                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#contactUs">{{__("Contact Us")}}</a>
+                    <a class="text-sm font-semibold text-white hover:text-blueGray-500" href="#contactUs">{{word("Contact Us")}}</a>
                 </li>
                 <li class="pt-4 pb-4 flex space-x-2">
                     <a href="/en" class="text-sm font-semibold text-white hover:text-blueGray-500">
@@ -60,19 +60,19 @@
         <div>
             <ul class="mobile-menu">
                 <li class="mb-1 rounded-xl">
-                    <a href="/" class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">{{__("Home")}}</a>
+                    <a href="/" class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">{{word("Home")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl">
-                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#presentation">{{__("Presentation")}}</a>
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#presentation">{{word("Presentation")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl">
-                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#portfolio">{{__("Portfolio")}}</a>
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#portfolio">{{word("Portfolio")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl">
-                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#referneces">{{__("References")}}</a>
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#referneces">{{word("References")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl">
-                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#contactUs">{{__("Contact Us")}}</a>
+                    <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#contactUs">{{word("Contact Us")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl flex">
                     <a class="block py-4 px-2 pl-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="/en">

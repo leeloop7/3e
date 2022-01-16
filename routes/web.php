@@ -2,8 +2,14 @@
 
 use App\Http\Controllers\AdminController;
 use App\Mail\ContactUs;
+use App\Models\Content;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
+function word($key)
+{
+    return config("content")[$key] ?? $key;
+}
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +37,7 @@ Route::get("/", function () {
 
 Route::get('/{language}', function (string $language) {
     app()->setLocale($language);
+    config()->set("content", Content::where("language", $language)->pluck("content_value", "content_key"));
     return view('home');
 });
 

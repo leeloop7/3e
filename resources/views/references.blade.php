@@ -58,10 +58,10 @@ $references = [
         <div class="max-w-lg mx-auto mb-12 text-center">
             <span
                 class="inline-block py-1 px-3 text-xs font-semibold bg-blue-100 text-blue-600 rounded-xl wow animate__animated animate__fadeInUp animated"
-                data-wow-delay=".1s">{{__("Our projects")}}</span>
+                data-wow-delay=".1s">{{word("Our projects")}}</span>
             <h2 class="text-3xl md:text-4xl mt-2 mb-4 font-bold font-heading wow animate__animated animate__fadeInUp animated"
                 data-wow-delay=".3s">
-                {{__("See our latest projects")}}
+                {{word("See our latest projects")}}
             </h2>
         </div>
         @foreach($references as $index => $reference)
@@ -72,7 +72,7 @@ $references = [
                         <div class="hover-up-5 w-1/2 h-64 pr-3 pb-3 wow animate__animated animate__fadeIn animated"
                              data-wow-delay=".1s">
                             <a href="{{$image}}" class="glightbox" data-gallery="{{$index}}"
-                               data-glightbox="description: {{__($reference['title'])}}">
+                               data-glightbox="description: {{word($reference['title'])}}">
                                 <img class="h-full object-cover rounded" src="{{$reference["thumbs"][$imageIndex]}}" alt=""/>
                             </a>
                         </div>
@@ -84,15 +84,15 @@ $references = [
                     <img class="lg:h-128 w-full object-cover rounded" src="{{$reference['main_image']}}" alt=""/>
                     <div class="absolute text-center bg-white rounded card-label-center px-4 py-12">
                         <div class="w-full flex place-content-center">
-                            <p class="capitalize font-bold text-2xl text-center">{{__($reference["title"])}}</p>
+                            <p class="capitalize font-bold text-2xl text-center">{{word($reference["title"])}}</p>
                         </div>
                         <div class="w-full flex place-content-center">
-                            <p class="font-sans text-center ext-white mt-5 mb-6">{{__($reference["description"])}}</p>
+                            <p class="font-sans text-center ext-white mt-5 mb-6">{{word($reference["description"])}}</p>
                         </div>
                         <a data-gallery="{{$index}}"
-                           data-glightbox="description: {{__($reference['title'])}}"
+                           data-glightbox="description: {{word($reference['title'])}}"
                            class="glightbox tracking-wide hover-up-2 inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded"
-                           href="{{$reference['main_image']}}">{{__("See more")}}</a>
+                           href="{{$reference['main_image']}}">{{word("See more")}}</a>
                     </div>
                 </div>
             </div>

@@ -73,5 +73,17 @@
     </div>
 </div>
 
+<script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        let editors = document.getElementsByClassName("ckeditor");
+
+        if (editors.length > 0) {
+            editors.forEach(element => {
+                CKEDITOR.replace(element);
+            })
+        }
+    });
+</script>
 </body>
 </html>

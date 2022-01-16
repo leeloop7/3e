@@ -4,29 +4,29 @@
             <div class="flex-1 lg:pr-32 py-20 lg:py-16 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                 <div class="max-w-2xl px-4 mx-auto lg:ml-0">
                     <h3 class="mb-8 text-4xl font-bold font-heading wow animate__animated animate__fadeInUp">
-                        {{__("Portfolio")}}
+                        {{word("Portfolio")}}
                     </h3>
                     <div
                         x-data="{
                         faqs: [
                             {
-                                question: '{{__("Technical Services")}}',
-                                answer: '{{__("3e.portfolio.technical")}}',
+                                question: '{{word("Technical Services")}}',
+                                answer: '{!! str_replace(["\r", "\n"], '', word("3e.portfolio.technical")) !!}',
                                 isOpen: true,
                             },
                             {
-                                question: '{{__("Production Technologies")}}',
-                                answer: '{{__("3e.portfolio.industrial_technologies")}}',
+                                question: '{{word("Production Technologies")}}',
+                                answer: '{!! str_replace(["\r", "\n"], '', word("3e.portfolio.industrial_technologies")) !!}',
                                 isOpen: false,
                             },
                             {
-                                question: '{{__("Products")}}',
-                                answer: '{{__("3e.portfolio.products")}}',
+                                question: '{{word("Products")}}',
+                                answer: '{!! str_replace(["\r", "\n"], '', word("3e.portfolio.products")) !!}',
                                 isOpen: false,
                             },
                             {
-                                question: '{{__("Assembly And Transport")}}',
-                                answer: '{{__("3e.portfolio.assembly_and_transport")}}',
+                                question: '{{word("Assembly And Transport")}}',
+                                answer: '{!! str_replace(["\r", "\n"], '', word("3e.portfolio.assembly_and_transport")) !!}',
                                 isOpen: false,
                             },
                         ]
