@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Mail\ContactUs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -16,21 +17,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(["prefix" => "admin", "middleware" => "auth.basic"], function() {
-    Route::get("/", function(){
-      return view("admin.dashboard");
-    })->name("admin.dashboard");
-    Route::get("presentation", function(){
-       return view("admin.presentation");
-    })->name("admin.presentation");
-    Route::get("portfolio", function(){
-        return view("admin.portfolio");
-    })->name("admin.portfolio");
-    Route::get("references", function(){
-        return view("admin.references");
-    })->name("admin.references");
-    Route::get("contact-us", function(){
-        return view("admin.contact-us");
-    })->name("admin.contact-us");
+    Route::get("/", [AdminController::class, "dashboard"])->name("admin.dashboard");
+    Route::get("presentation", [AdminController::class, "presentation"])->name("admin.presentation");
+    Route::get("portfolio", [AdminController::class, "portfolio"])->name("admin.portfolio");
+    Route::get("references", [AdminController::class, "references"])->name("admin.references");
+    Route::get("contact-us", [AdminController::class, "contactUs"])->name("admin.contact-us");
+    Route::post("update-content", [AdminController::class, "updateContent"])->name("admin.update-content");
 });
 
 Route::get("/", function () {

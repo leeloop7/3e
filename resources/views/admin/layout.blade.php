@@ -13,7 +13,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
-                        <img class="h-10" src="/imgs/header_logo.png" alt="" />
+                        <img class="h-10" src="/imgs/header_logo.png" alt=""/>
                     </div>
                     <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                         <a href="{{route('admin.dashboard')}}"
@@ -57,9 +57,17 @@
         </header>
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <!-- Replace with your content -->
-            @yield("content")
-            <!-- /End replace -->
+                @if (session()->has("success"))
+                    <div class="text-blue-500">
+                        {!! session("success") !!}
+                    </div>
+                @endif
+                @if (session()->has("error"))
+                    <div class="text-blue-500">
+                        {!! session("error") !!}
+                    </div>
+                @endif
+                @yield("content")
             </div>
         </main>
     </div>

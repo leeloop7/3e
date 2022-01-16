@@ -75,13 +75,13 @@
                     <a class="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="#contactUs">{{__("Contact Us")}}</a>
                 </li>
                 <li class="mb-1 rounded-xl flex">
-                    <a class="block py-4 px-2 pl-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="">
+                    <a class="block py-4 px-2 pl-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="/en">
                         <img src="https://flagicons.lipis.dev/flags/4x3/gb-eng.svg" alt="" class="h-6 w-6">
                     </a>
-                    <a class="block py-4 px-2 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="">
+                    <a class="block py-4 px-2 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="/de">
                         <img src="https://flagicons.lipis.dev/flags/4x3/de.svg" alt="" class="h-6 w-6">
                     </a>
-                    <a class="block py-4 px-2 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="">
+                    <a class="block py-4 px-2 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl" href="/sl">
                         <img src="https://flagicons.lipis.dev/flags/4x3/si.svg" alt="" class="h-6 w-6">
                     </a>
                 </li>
